@@ -1,0 +1,29 @@
+h1{
+    color: rgb(3, 93, 184);
+}
+/*{
+    border:solid cornflowerblue;
+}*/
+.portals {
+    display: flex;
+        justify-content: space-evenly ;
+                flex-wrap: wrap;
+                    color: azure;
+  }
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+.info {
+    display: flex;
+    justify-content: stretch;
+    background-color: lightseagreen;
+}
+body{
+    background-color: #808080;
+    border: 5px solid aquamarine;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-image: url(bg.webp);
+    background-size: cover
+}
